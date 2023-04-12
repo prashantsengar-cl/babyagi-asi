@@ -16,6 +16,7 @@ A task has: task_id and task_name;
 The available tools are the following, I must choose wisely:
 I must answer with an 'action' function.
 I cannot write after the 'answer:'
+All the sentences in my response which are not code must begin with "# "
 
 - self.openai_call(prompt, ?temperature=0.4, ?max_tokens=200) -> str: runs an arbitrary LLM completion. I must use f-strings to pass values and context.
 I must use this only when I need to handle large texts and nlp processes with large data. To handle nlp it's just I write as I'd write normally. Using all knowledge that I've learned from the Corpus of my training.
